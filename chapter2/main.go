@@ -23,4 +23,11 @@ func main() {
 	fmt.Println(!true)
 	fmt.Println(!false)
 
+	/* Multiplication of two numbers */
+
+	fmt.Println("The multiplication of 32,132 X 42,452 =", 32132*42452)
+
+	// Find the value of the expression
+	fmt.Println((true && false) || (false && true) || !(false && false))
+
 }
